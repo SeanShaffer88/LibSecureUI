@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<!-- LibSecureUI-1.0 virtual templates. Each one only inherits a Blizzard
+	     secure template: no snippets, no scripts, nothing that can taint.
+	     They exist so addons get stable names that survive Blizzard
+	     template renames, and so the Lua side can prefer them. -->
+
+	<!-- Secure action button (casts spells, uses items, runs macros,
+	     targets units) whose clicks stay valid during combat. -->
+	<Button name="LibSecureUIButtonTemplate" virtual="true" inherits="SecureActionButtonTemplate"/>
+
+	<!-- Secure frame whose named states are driven by the secure state
+	     driver system (visibility, paging, possess bars, ...). -->
+	<Frame name="LibSecureUIStateFrameTemplate" virtual="true" inherits="SecureHandlerStateTemplate"/>
+
+	<!-- Secure frame with secure show/hide state handling. -->
+	<Frame name="LibSecureUIShowHideFrameTemplate" virtual="true" inherits="SecureHandlerShowHideTemplate"/>
+</Ui>

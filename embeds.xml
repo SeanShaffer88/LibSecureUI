@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<!-- Embed LibSecureUI-1.0 in another addon:
+	     copy LibStub.lua, LibSecureUI-1.0.xml, LibSecureUI-1.0.lua and
+	     this file into a libs\LibSecureUI-1.0 folder inside your addon,
+	     then include this file from your addon's embeds.xml or .toc.
+	     Load order matters: LibStub, then the XML templates, then Lua. -->
+	<Script file="LibStub.lua"/>
+	<Include file="LibSecureUI-1.0.xml"/>
+	<Script file="LibSecureUI-1.0.lua"/>
+</Ui>

@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: LibSecureUI-1.0
+## Notes: Safe, simplified abstraction over secure templates and combat-locked frames: secure buttons and frames without taint. Embed via LibStub, or run standalone and use /libsecureui test.
+## Author: Sean Shaffer
+## Version: 1.0.0
+## IconTexture: Interface\AddOns\LibSecureUI-1.0\Icon
+## Dependencies:
+## X-Category: Library
+## X-License: MIT
+## X-Website: https://github.com/SeanShaffer88/LibSecureUI
+
+LibStub.lua
+LibSecureUI-1.0.xml
+LibSecureUI-1.0.lua
